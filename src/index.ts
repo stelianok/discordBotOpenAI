@@ -1,4 +1,5 @@
 import { Client, Interaction, GatewayIntentBits } from "discord.js";
+import slashHelp from "./commands/slashHelp";
 
 import { DISCORD_TOKEN } from "./config/secrets";
 
@@ -15,7 +16,7 @@ client.on("interactionCreate", async (interaction: Interaction) => {
   const { commandName } = interaction;
 
   if (commandName === "ajuda") {
-    interaction.reply("XD");
+    slashHelp(interaction);
   }
   else if (commandName === "chat") {
     //
