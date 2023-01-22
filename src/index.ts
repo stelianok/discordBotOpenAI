@@ -4,7 +4,6 @@ import slashHelp from "./commands/slashHelp";
 
 import { DISCORD_TOKEN } from "./config/secrets";
 
-
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.once("ready", async () => {
