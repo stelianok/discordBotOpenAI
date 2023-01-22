@@ -14,8 +14,11 @@ client.on("interactionCreate", async (interaction: Interaction) => {
 
   const { commandName } = interaction;
 
-  if (commandName === "help") {
+  if (commandName === "ajuda") {
     interaction.reply("XD");
+  }
+  else if (commandName === "chat") {
+    //
   }
 });
 
