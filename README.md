@@ -20,7 +20,6 @@ This bot was developed using NodeJS and Typescript.
 - `/ajuda` - help command,  lists every other command
 - `/chat` - Allows the user to talk to the bot and ask any question
 
----
 
 ## Features 🛠✨
 
