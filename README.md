@@ -3,7 +3,6 @@ a discord bot that uses the GPT-3 model to respond to human prompts and return a
 
 This bot was developed using NodeJS and Typescript.
 
-
 ---
 
 ## Topics 📖
@@ -60,6 +59,7 @@ You need to run it everytime that you update any command on `deploy-command.js`
 ### Production mode
 
 `yarn start`
+
 --- 
 
 ## Contact 💼

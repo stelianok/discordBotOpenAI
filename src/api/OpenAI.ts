@@ -13,7 +13,7 @@ export async function answerQuestion(prompt: string) {
   const model = "text-davinci-003";
 
   try {
-    const response = await openai.createCompletion({ model, prompt, max_tokens: 2048 });
+    const response = await openai.createCompletion({ model, prompt, max_tokens: 2048, echo: true });
 
     return response.data.choices;
   }
